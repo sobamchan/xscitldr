@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "xscitldr_staging"
+version = "0.1.0"
+description = ""
+authors = ["sobamchan <oh.sore.sore.soutarou@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+datasets = "^2.0.0"
+torch = "^1.11.0"
+pytorch-lightning = "^1.5.10"
+transformers = "^4.17.0"
+lineflow = "^0.6.8"
+
+[tool.poetry.dev-dependencies]
+neovim = "^0.3.1"
+ipython = "^8.1.1"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
