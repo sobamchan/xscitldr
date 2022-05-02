@@ -4,7 +4,7 @@ Authors: Sotaro Takeshita, Tommaso Green, Niklas Friedrich, Kai Eckert and Simon
 
 [JCDL 2022](https://2022.jcdl.org/)
 
-Dataset is also available at [huggingset dataset](https://huggingface.co/datasets/umanlp/xscitldr).
+Dataset is also available at [huggingface dataset](https://huggingface.co/datasets/umanlp/xscitldr).
 
 
 # Installation
