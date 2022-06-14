@@ -12,6 +12,8 @@ Dataset is also available at [huggingface dataset](https://huggingface.co/datase
 This repository uses [Poetry](https://python-poetry.org) for package manager.
 Please follow its documentation to setup the python environment before proceeding.
 
+If you don't use Poetry, you can also install packages by `pip install -r requirements.txt` though I recommend to use Poetry.
+
 # Training models
 
 Following two sections shot how to train models we present in our paper.
