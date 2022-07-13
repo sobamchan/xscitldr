@@ -6,7 +6,7 @@ Authors: Sotaro Takeshita, Tommaso Green, Niklas Friedrich, Kai Eckert and Simon
 
 Dataset is also available at [huggingface dataset](https://huggingface.co/datasets/umanlp/xscitldr).
 
-Preprint is at [arXiv](https://arxiv.org/abs/2205.15051).
+Paper is at [arXiv](https://arxiv.org/abs/2205.15051).
 
 
 # Installation
