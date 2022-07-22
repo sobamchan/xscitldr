@@ -48,10 +48,10 @@ def get_cl_scitldr_dataset(lang: str) -> Tuple[IterableDataset, IterableDataset]
     """
     # TODO: use huggingface/datasets.
     train = load_dataset(
-        "sobamchan/xscitldr_staging", lang, use_auth_token=True, split="train"
+        "umanlp/xscitldr", lang, split="train"
     )
     val = load_dataset(
-        "sobamchan/xscitldr_staging", lang, use_auth_token=True, split="validation"
+        "umanlp/xscitldr", lang, split="validation"
     )
 
     train = IterableDataset([{"source": x["source"], "target": x["target"][0]} for x in train])
